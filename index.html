@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form Test</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="" id="survey-form">
+        <label for="name">Name</label>
+        <input type="text" id="name-label" name="name" placeholder="Enter Your Name"required>
+        <label for="email">Email</label>
+        <input type="email" id="email-label" name="email" placeholder="Enter Your Email" required>
+        <label for="number">Age (optional)</label>
+        <input type="number" id="number-label" name="number" placeholder="Optional: Enter Age"required>
+        
+
+        <label class="container">One
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Two
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Three
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Four
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+
+        
+        <label for="recommend-radio">Would you recommend freeCodeCamp to a friend?</label>
+        <input type="radio" name="recommend-radio" required checked="checked">
+        <input type="radio" name="recommend-radio" required>
+        <input type="radio" name="recommend-radio" required>
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea id="textarea-label" name="comments" rows="5" cols="50">
+        Enter your comments here...</textarea>
+        
+        <input type="submit" value="Submit" class="btn btn-primary">
+        
+    </form>
+</body>
+</html>
