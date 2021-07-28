@@ -1,10 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-image: 
-    linear-gradient(rgba(71, 34, 202, 0.7),rgba(71, 34, 202, 0.7)), url("office-collab-unsplash.jpg");
+    linear-gradient(rgba(84, 70, 134, 0.7),rgba(84, 70, 134, 0.7)), url("office-collab-unsplash.jpg");
     background-size: cover;
     font-size: 1.2rem;
+    transition: all .2s linear;
 }
 #title {
     color: white;
@@ -24,15 +26,59 @@ body {
     z-index: 100;
 }
 
-
-
-
-
-
-
 #survey-form {
-    max-width: 800px;
-    background:  rgba(0, 0, 0, 0.9);
+    max-width: 700px;
+    background:  rgba(84, 70, 134, 0.9);
     color: white;
     margin: 0 auto;
+    padding: 40px;
+    font-size: 1.4rem;
+}
+
+body label {
+    margin: 0px 10px 0px 10px;
+}
+.iblock {
+    display: block;
+    width: 660px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.itextbox {
+    display: block;
+    width: 660px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+}
+.icheck {
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.btn {
+    display: block;
+    width: 660px;
+    margin: 10px 10px 20px 10px;
+    padding: 8px 10px 8px 10px;
+    background: rgb(97, 191, 97);
+    color: white;
+    margin: 0 auto;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.dropdown {
+    margin-top: 1em;
+}
+
+input[type='radio'], input[type='checkbox'] { 
+    transform: scale(1.6); 
+    margin-right: 10px;
+}
+
+textarea {
+    text-align: left;
+    color: grey;
 }
